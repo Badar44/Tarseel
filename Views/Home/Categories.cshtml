@@ -1,0 +1,937 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+    .bg-gray-lighter{
+        background-color: #22211f;
+    }
+    .bg-gray{
+        background-color: #f4f4f4;
+    }
+    .footer{
+        text-align: center;
+        font-size: 12px;
+        background-color: #13505e;
+    }
+    .footer a{
+        color: #888;
+        text-decoration: none;
+
+        -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    }
+    .footer a:hover{
+        color: #111;
+        text-decoration: underline;
+    }
+    .footer-text{
+        margin-bottom: 2px;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+    }
+    .footer-made{
+        font-size: 11px;
+        color: #999;
+    }
+
+
+    .footer-social-links{
+        font-size: 14px;
+    }
+    .footer-social-links a{
+        width: 25px;
+        height: 25px;
+        line-height: 25px !important;
+        position: relative;
+        margin: 90 px;
+        text-align: center;
+        display: inline-block;
+        color: #fff;
+        background: transparent;
+
+        -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 000);
+        -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    }
+    .footer-social-links a i,
+    .footer-social-links a span{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .footer-social-links a:before{
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid #fff;
+        background: transparent;
+
+        -webkit-border-radius: 21px;
+        -moz-border-radius: 21px;
+        border-radius: 21px;
+
+
+
+        -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+        transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+
+    }
+    .footer-social-links a:hover{
+        color: #5b5b5b;
+        background: transparent;
+    }
+    .footer-social-links a:hover:before{
+        background: #fff;
+    }
+    .form input {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-indent: 15px;
+        background-image: url(http://beta.rabbitdrop.com/assets/place-ecb964e192da9a35fc1eae1f0024e4eb4e205a5dc243efb5fb6b66af21a58ede.jpg);
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+    }
+
+    .cart-info {
+        color : #FFFFFF;
+    }
+
+
+
+    .bgimg {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        top:0px;
+        overflow: hidden;
+        left: 0px;
+    }
+
+    /*    .showfootertext{
+            display: none;
+        }
+        .markerhover:hover .showfootertext{
+            position: relative;
+            display : block;
+        }*/
+    .markerhover{
+        padding: 0px;
+        position: relative;
+        width: 33px;
+    }
+
+
+</style>
+
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><!--<![endif]-->
+
+
+  <meta charset="utf-8">
+<title>Categories</title>
+<meta property="og:title" content="Rabbit Drop">
+<meta property="og:url" content="http://beta.rabbitdrop.com">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Can&#39;t make time to get grocery? Just log in to our website, fill your cart and checkout. Then sit back and relax to find your groceries outside your door within 60 minutes.">
+<meta property="og:image" content="http://rabbitdrop.com/assets/posterimage-9c78e6437b9fb3213e7be0fc55a5ab2232f59aa07028a5f1cbe47453d42a8298.png">
+<meta name="google-site-verification" content="pBN6bH08Ti84TrH7mhSKKFryBgib9zGf4x9wlFDxOBI">
+<meta name="description" content="Order groceries online and get them at your doorstep in one hour. At Rabbit Drop we have formulated a technology driven convenience. Every household can make shopping lists and their items are delivered to their doorstep. Initially targeting Lahore, we aim to spread across Pakistan and provide a convenient solution for grocery shopping to everyone.">
+<meta name="robots" content="rabbit drop , rabbit , drop , grocery, delivery, pakistan, lahore, convenient, urgent, online, shopping">
+
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
+<meta name="keywords" content="rabbit, drop, grocery, shopping, online, convenience, lahore, pakistan">
+<meta name="description" content="">
+<link href="http://www.rabbitdrop.com/t/categories" rel="canonical">
+<link rel="shortcut icon" type="image/x-icon" href="http://beta.rabbitdrop.com/assets/icon-678f82651cec4037a4e42fbd031d85a5fd97596bbf367decab6552d0cb1e3af6.ico">
+<link rel="stylesheet" media="screen" href="~/Content/stores.css">
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="3vGZwe3KLjemSZZ6qo/ze1Y3r03fRVy+Pj9TJMKgk6897bCcKzf9OTbTBxSz4lC1GpD+xozd6TwgTQEc1vvt+w==">
+<script async="" src="~/Scripts/analytics.js"></script><script async="" src="~/Scripts/fbds.js"></script><script src="~/Scripts/allStores.js"></script>
+<!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+<![endif]-->
+
+
+
+
+  <link rel="stylesheet" href="~/Content/font-awesome.min.css">
+
+  <!-- Facebook Conversion Code for Adds to Basket - Usama K. Zafar 1 -->
+  <script>(function() {
+      var _fbq = window._fbq || (window._fbq = []);
+      if (!_fbq.loaded) {
+          var fbds = document.createElement('script');
+          fbds.async = true;
+          fbds.src = '//connect.facebook.net/en_US/fbds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(fbds, s);
+          _fbq.loaded = true;
+      }
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(['track', '6033535047667', {'value':'0.00','currency':'PKR'}]);
+  </script>
+  <noscript>&lt;img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6033535047667&amp;amp;cd[value]=0.00&amp;amp;cd[currency]=PKR&amp;amp;noscript=1" /&gt;</noscript>
+<script>
+
+    $(function() {
+        $(".cart-info").on("click",function(){
+            $('#topgif').attr('src', '/assets/headergifs/wrabbitrun-ba8fe20269faf226a7588c1b7a9f1b5733e50a2c3faafe9d25eb15942cc3d040.gif'); // show on any Ajax event.
+        });
+
+         // hide it initially.
+        $(document)
+                .ajaxStart(function() {
+                    $('#topgif').attr('src', '/assets/headergifs/wrabbitrun-ba8fe20269faf226a7588c1b7a9f1b5733e50a2c3faafe9d25eb15942cc3d040.gif');
+
+                })
+                .ajaxStop(function() {
+                    $('#topgif').attr('src', '/assets/headergifs/wstaticrabbit-265b1af943668289bacb67e7819ac31641a0c9cb8b97359305fe84503c9cb881.png');
+                });
+    });
+
+
+</script>
+ </head>
+
+
+
+
+<body class="two-col" id="default" data-hook="body" style="min-height:800px">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-66022137-2', 'auto');
+    ga('require', 'displayfeatures');
+    
+    ga('send', 'pageview');
+  </script>
+
+
+<script>
+  $(document).ready(function() {
+      $(function () {
+          $('a').click(function () {
+             // showloading=true;
+                if (this.id == "categoriesdropdownlink" ||this.id == "carthidebutton" ){
+                  return;
+              }
+              $('#topgif').attr('src', '/assets/headergifs/wrabbitrun-ba8fe20269faf226a7588c1b7a9f1b5733e50a2c3faafe9d25eb15942cc3d040.gif');
+          });
+      });
+  });
+     </script>
+
+
+  <nav class="main-nav dark transparent stick-fixed">
+    <div class="container-fluid navbar-inverse newnav full-wrapper relative clearfix newnav">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="nav-logo-wrap local-scroll" style="margin-top:15px;">
+            <a><img style="height:50px;width:auto;" id="topgif" src="~/Images/tarseelLogo.png" alt="tarseelLogo"></a>
+            <a><img style="height:40px;width:auto;" src="~/Images/Cart.png" alt="Cart"></a>
+ </div>
+
+      </div>
+
+
+      <ul class="nav navbar-nav navbar-right" style="margin:8px 0 0; height:70px;" id="cb1">
+
+        <li class="nav navbar-nav" id="link-to-cart" data-hook=""><a class="cart-info empty" href="http://beta.rabbitdrop.com/cart"><span class="glyphicon glyphicon-shopping-cart"></span> Cart: (Empty)</a></li>
+        <script>Spree.fetch_cart()</script>
+      </ul>
+
+
+      <div class="collapse navbar-collapse" id="myNavbar" style="margin-top: 7px;">
+        <!-- LINKS ON THE LEFT        <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                   DROPDOWN IF NEEDED <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Page 1-1</a></li>
+                    </ul>
+                  </li>
+                   MORE LINKS IF NEEDED   <li><a href="#">Page 2</a></li>
+                </ul>-->
+        <ul class="nav navbar-nav navbar-right navbartexts">
+          <!-- RIGHT LINKS
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  -->
+          
+
+  <li class="dropdown">
+            <a aria-expanded="false" data-toggle="dropdown" class="dropdown-toggle" id="categoriesdropdownlink" href="javascript:void(0);">Categories <b class="caret"></b></a>
+            <ul class="dropdown-menu" id="categoriesdropdown">
+
+
+                  <li class="dropdown dropdown-submenu"><a href="http://beta.rabbitdrop.com/t/categories/drinkables">Drinkables</a>
+                    <ul class="dropdown-menu">
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/drinkables/tea">Tea &amp; Coffee</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/drinkables/milk">Milk</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/drinkables/juices">Juices</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/drinkables/water">Water</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/drinkables/sodas">Sodas</a>
+
+
+
+                          </li>
+
+
+
+
+                    </ul>
+
+                  </li>
+
+
+
+
+
+                 
+
+
+
+
+                  <li class="dropdown dropdown-submenu"><a href="http://beta.rabbitdrop.com/t/categories/toiletries">Toiletries</a>
+                    <ul class="dropdown-menu">
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/toiletries/shampoo">Shampoo</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/toiletries/soap">Soap</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/toiletries/facewash-and-scrub">Facewash &amp; Scrub</a>
+
+
+
+                          </li>
+
+
+
+
+
+
+                    </ul>
+
+                  </li>
+
+
+
+
+
+                  <li class="dropdown dropdown-submenu"><a href="http://beta.rabbitdrop.com/t/categories/junk-food">Snacks</a>
+                    <ul class="dropdown-menu">
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/junk-food/biscuits">Biscuits</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/junk-food/chips">Chips</a>
+
+
+
+                          </li>
+
+
+
+
+                    </ul>
+
+                  </li>
+
+
+
+
+
+                  <li class="dropdown dropdown-submenu"><a href="http://beta.rabbitdrop.com/t/categories/baby">Baby</a>
+                    <ul class="dropdown-menu">
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/baby/baby-food">Baby Food</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/baby/baby-products">Baby Products</a>
+
+
+
+                          </li>
+
+
+
+
+                    </ul>
+
+                  </li>
+
+
+
+
+
+                  <li class="dropdown dropdown-submenu"><a href="http://beta.rabbitdrop.com/t/categories/household">Household</a>
+                    <ul class="dropdown-menu">
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/household/air-fresheners">Air Fresheners</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/household/glass-cleaner">Glass Cleaner</a>
+
+
+
+                          </li>
+
+
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/household/tissues">Tissues</a>
+
+
+
+                          </li>
+
+
+
+
+                    </ul>
+
+                  </li>
+
+
+
+
+
+                  <li class="dropdown dropdown-submenu"><a href="http://beta.rabbitdrop.com/t/categories/personal-care">Personal Care</a>
+                    <ul class="dropdown-menu">
+                         
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/toiletries/lotion-and-cream">Lotion &amp; Cream</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/personal-care/sanitary-pads">Sanitary Napkins</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/household/cotton-roll">Cotton Roll &amp; Ear Buds</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/personal-care/talcum-powder">Talcum Powder</a>
+
+
+
+                          </li>
+
+
+
+
+                          <li><a href="http://beta.rabbitdrop.com/t/categories/personal-care/sunblock">Sunblock</a>
+
+
+
+                          </li>
+
+
+
+
+                    </ul>
+
+                  </li>
+
+
+
+
+
+
+            </ul>
+          </li>
+                  <li><a href="http://beta.rabbitdrop.com/lists">My Lists</a></li>
+
+          
+              <li> <a href="http://beta.rabbitdrop.com/login" class="toplinks">Login</a> </li>
+          <li id="searchFieldinHeader">
+            <a>
+
+
+                <form id="newnavsearch" action="http://beta.rabbitdrop.com/products" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+
+                    <input type="search" name="keywords" id="searchField" placeholder="Search">
+</form>
+
+<!--
+                <input type="search" placeholder="Search" id="searchField">
+-->
+
+            </a>
+
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  var showloading = false;/*
+    $(window).scroll(function(){
+        var sticky = $('.sticky');
+
+        scroll = $(window).scrollTop();
+
+        if (scroll >= 100) {
+            sticky.addClass('fixed');
+            if(showloading){
+
+                $('#loading-indicator').css('display','block');
+                $('#rabbitr').attr('src', '');
+            }else{
+                $('#loading-indicator').css('display','none');
+                $('#rabbitr').attr('src', '');
+            }
+        }
+        else {
+            sticky.removeClass('fixed');
+            if(showloading) {
+                $('#loading-indicator').css('display', 'none');
+                $('#rabbitr').attr('src', '');
+            }else{
+                $('#loading-indicator').css('display','none');
+                $('#rabbitr').attr('src', '');
+            }
+
+        }
+    });*/
+
+    $("#cb1").hover(function() {
+        //     $(this).addClass("blue");
+        $('#cartbox').css('display','block');
+    }, function() {
+
+        $("#cartbox").hover(function() {
+
+            $('#cartbox').css('style',' z-index:999999;');
+        }, function() {
+            $('#cartbox').css('display','none');
+        });
+       // $('#cartbox').hide('slow');
+        // $('#cartbox').css('display','none');
+    });
+
+
+
+</script>
+<div id="feedbackmodaldiv"></div>
+<div id="customcart">
+  
+<!--<script>
+    $(window).scroll(function(){
+        var stickcart = $('.cartbox'),
+        scroll = $(window).scrollTop();
+
+        if (scroll >= 100) stickcart.addClass('fixedcart');
+        else stickcart.removeClass('fixedcart');
+    });
+
+    if ($(window).scrollTop() >= 100) $('.cartbox').addClass('fixedcart');
+</script>-->
+<div id="cartboxHide">
+
+<div class="cartbox panel panel-default" id="cartbox">
+  <div class="cartheader" style="padding:0px;">
+    <b>YOUR CART</b>
+  </div>
+  <div class="cartlist">
+
+
+
+
+
+        <b style="text-align: center;">Your Cart is empty</b>
+
+
+  </div>
+    <div class="cartboxfooter panel panel-footer" style="margin-bottom: 0px;padding: 5px; text-align: right;">
+      <a onclick="   $(&#39;#cartbox&#39;).hide(&#39;slow&#39;);" id="carthidebutton" class="btn btn-info btn-sm" href="javascript:void(0)">Hide Cart</a>
+    <a class="btn btn-success" id="checkout-link" name="checkout" href="http://beta.rabbitdrop.com/checkout">Checkout</a>
+      </div>
+  </div>
+
+</div>
+
+</div>
+
+
+
+<div class="modal fade " id="appModal" role="dialog">
+  <div class="modal-dialog modal-sm">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Get convenience on the go</h4>
+        </div>
+        <div class="modal-body" style="text-align: center;">
+          <p>Have you tried our Android App?</p>
+          <a href="market://details?id=com.root.rabbitdrop">
+          <img src="./Categories - Instant Grocery Delivery in Lahore_files/playstoreimage-65eb6aaab1f46a92e134e5deafed059c2964356f8ea512491ac83c7c1333a436.png" alt="Playstoreimage 65eb6aaab1f46a92e134e5deafed059c2964356f8ea512491ac83c7c1333a436">
+          </a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+<!-- Modal -->
+<div id="productsModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content" id="modalcontentdiv">
+
+      <div class="modal-header">
+
+        <div id="popup-messages"></div>
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 id="headerpopuptext" class="modal-title">Product Detail</h4>
+      </div>
+
+      <div class="modal-body" id="modalll">
+
+      </div>
+      <div class="modal-footer">
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container-fluid" id="" style="min-height:650px;">
+
+  <img class="bgimg" src="~/Images/shopping_blur.jpg" alt="Shopping blur">
+  <div class="row" data-hook="">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <nav id="breadcrumbs" class="col-md-12"><ol class="breadcrumb" itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList"><li itemscope="itemscope" itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="item"><a itemprop="url" href="http://beta.rabbitdrop.com/"><span itemprop="name">Home</span></a>&nbsp;</span></li><li itemscope="itemscope" itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="item"><a itemprop="url" href="http://beta.rabbitdrop.com/products"><span itemprop="name">Products</span></a>&nbsp;</span></li><li class="active" itemscope="itemscope" itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="item"><a itemprop="url" href="./Categories - Instant Grocery Delivery in Lahore_files/Categories - Instant Grocery Delivery in Lahore.html"><span itemprop="name">Categories</span></a></span></li></ol></nav>
+
+<form class="" action="http://beta.rabbitdrop.com/products" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+<div class="form-group" style="display:none;">
+
+      <select name="taxon" id="taxon" aria-label="Taxon" class="form-control"><option value="1">All departments</option></select>
+
+</div>
+<h1 class="taxon-title">Categories</h1>
+    <input type="search" name="keywords" id="keywords" placeholder="Search Products in Categories" class="form-control input-group" style="">
+    <br>
+</form>
+
+    <aside id="sidebar" class="col-sm-4 col-md-3" data-hook="">
+    <div data-hook="taxon_sidebar_navigation">
+    <nav id="taxonomies" class="sidebar-item" data-hook="">
+
+          <h4 class="taxonomy-root">Shop by Categories</h4>
+              <div class="list-group">
+               <h4 class="list-group-item" style="color:#ffffff;background-color:#13afc6;cursor: pointer;" data-toggle="collapse" data-target="#demoDrinkables"> Drinkables</h4>
+                    <div class="collapse out list-group" id="demoDrinkables">
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/drinkables/tea">Tea &amp; Coffee</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/drinkables/milk">Milk</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/drinkables/juices">Juices</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/drinkables/water">Water</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/drinkables/sodas">Sodas</a></h4>
+                        <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/drinkables">All Drinkables</a></h4>
+                </div>
+                <div>
+
+                </div>
+              </div>
+              <div class="list-group">
+               <h4 class="list-group-item" style="color:#ffffff;background-color:#13afc6;cursor: pointer;" data-toggle="collapse" data-target="#demoToiletries"> Toiletries</h4>
+                    <div class="collapse out list-group" id="demoToiletries">
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/toiletries/shampoo">Shampoo</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/toiletries/soap">Soap</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/toiletries/facewash-and-scrub">Facewash &amp; Scrub</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/toiletries">All Toiletries</a></h4>
+                </div>
+                <div>
+
+                </div>
+              </div>
+              <div class="list-group">
+               <h4 class="list-group-item" style="color:#ffffff;background-color:#13afc6;cursor: pointer;" data-toggle="collapse" data-target="#demoSnacks"> Snacks</h4>
+                    <div class="collapse out list-group" id="demoSnacks">
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/junk-food/biscuits">Biscuits</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/junk-food/chips">Chips</a></h4>
+                        <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/junk-food">All Snacks</a></h4>
+                </div>
+                <div>
+
+                </div>
+              </div>
+              <div class="list-group">
+               <h4 class="list-group-item" style="color:#ffffff;background-color:#13afc6;cursor: pointer;" data-toggle="collapse" data-target="#demoBaby"> Baby</h4>
+                    <div class="collapse out list-group" id="demoBaby">
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/baby/baby-food">Baby Food</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/baby/baby-products">Baby Products</a></h4>
+                        <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/baby">All Baby</a></h4>
+                </div>
+                <div>
+
+                </div>
+              </div>
+              <div class="list-group">
+               <h4 class="list-group-item" style="color:#ffffff;background-color:#13afc6;cursor: pointer;" data-toggle="collapse" data-target="#demoHousehold"> Household</h4>
+                    <div class="collapse out list-group" id="demoHousehold">
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/household/air-fresheners">Air Fresheners</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/household/glass-cleaner">Glass Cleaner</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/household/tissues">Tissues</a></h4>
+                        <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/household">All Household</a></h4>
+                </div>
+                <div>
+
+                </div>
+              </div>
+              <div class="list-group">
+               <h4 class="list-group-item" style="color:#ffffff;background-color:#13afc6;cursor: pointer;" data-toggle="collapse" data-target="#demoPersonalCare"> Personal Care</h4>
+                    <div class="collapse out list-group" id="demoPersonalCare">
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/toiletries/lotion-and-cream">Lotion &amp; Cream</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/personal-care/sanitary-pads">Sanitary Napkins</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/household/cotton-roll">Cotton Roll &amp; Ear Buds</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/personal-care/talcum-powder">Talcum Powder</a></h4>
+                          <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/personal-care/sunblock">Sunblock</a></h4>
+                        <h4><a class="list-group-item" href="http://beta.rabbitdrop.com/t/categories/personal-care">All Personal Care</a></h4>
+                </div>
+                <div>
+
+                </div>
+              </div>
+</nav>
+
+  </div>
+
+
+
+
+</aside>
+  </div>
+</div>
+
+
+<!-- Chat Box -->
+
+<script src="~/Scripts/smooch.min.js"></script>
+
+</script>
+<style>
+    #sk-container #sk-wrapper .sk-msg {
+        background-color: #16dbe3 ;
+    }
+    #sk-container{
+        background-color: #16dbe3 ;
+        border: 2px solid rgba(255,255,255,0.9);
+    }
+    #sk-container #sk-wrapper .sk-msg::after {
+        border-left-color: #FFF ;
+        border-radius: 8px;
+        background-color: #16bde3;
+    }
+    #sk-container #sk-header{
+        border-left-color: #FFF ;
+        background-color: #16bde3;
+        color:#FFF;
+    }
+</style>
+
+
+
+
+<!--  Chat Box End-->
+<!-- Foter -->
+<footer class="bg-gray-lighter footer pb-60 row" style="width: 101%; margin-bottom: 0px; padding: 1%;">
+
+  <!--LEFT COLUMN-->
+  <div class="col-md-4">
+
+  </div>
+
+  <!--MIDDLE COLUMN-->
+  <div class="col-md-4">
+    <!-- Social Links --><br><br>
+    <div class="footer-social-links footer-icons mb-20 mb-xs-60">
+     
+    </div>
+    <!-- End Social Links -->
+
+
+    <!-- Copyright -->
+    <div style="color:#FFF">
+      <h5>© Tarseel 2016</h5>
+    </div>
+    <!-- End Copyright -->
+
+    <div style="color:#FFF">
+      <h7>#Jhakkkaaasss</h7>
+    </div>
+
+
+    <!-- End Footer Text -->
+  </div>
+
+
+  <!--RIGHT COLUMN-->
+ 
+
+</footer>
+
+
+
+
+
+<script>
+
+      function openProductsPopup(url){
+
+
+
+        $.ajax(
+                {
+                    url: url,
+                    type: "GET",
+                    success: function(data){
+
+                        $("#modalll").html(data);
+                        $("#add-to-cart-button").attr('class','btn btn-info')
+                        $('#productsModal').modal('toggle');
+                    }
+                });
+    }
+    
+    $("#messages").fadeTo(5000, 500).slideUp(500);
+
+
+</script>
+
+
+</body></html>
